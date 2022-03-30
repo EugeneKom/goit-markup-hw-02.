@@ -2,6 +2,9 @@
   --text-color: #757575;
   --hover-color: #2196f3;
   --title-color: #212121;
+  --white-color: #fff;
+  --bg-section-color: #f5f4fa;
+  --bg-section-next: #e5e5e5;
 }
 
 body {
@@ -13,7 +16,7 @@ body {
 
 /* Навигация */
 .header-nav {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 .logo-color {
   color: var(--hover-color);
@@ -61,13 +64,13 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #fff;
+  color: var(--white-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-btn {
   background-color: var(--hover-color);
-  color: #fff;
+  color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -77,7 +80,7 @@ body {
 }
 /* секция 2 особенности  */
 .qualities {
-  background-color: #e5e5e5;
+  background-color: var(--bg-section-next);
 }
 .qualities-item {
   list-style-type: none;
@@ -91,7 +94,7 @@ body {
 }
 /* Секция 3 чем мы занимаемся  */
 .about {
-  background-color: #e5e5e5;
+  background-color: var(--bg-section-next);
 }
 
 .section-title {
@@ -105,7 +108,7 @@ body {
 }
 /* Секция 4 наша команда */
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--bg-section-color);
 }
 .our-team {
   list-style-type: none;
@@ -129,13 +132,13 @@ body {
   font-style: normal;
 }
 .logo-white {
-  color: #fff;
+  color: var(--white-color);
 }
 .footer {
   background-color: #2f303a;
 }
 .addr-item {
-  color: #fff;
+  color: var(--white-color);
 }
 
 /* Portfolio */
@@ -145,18 +148,18 @@ body {
   list-style-type: none;
 }
 .btn-item {
-  background-color: #f5f4fa;
+  background-color: var(--bg-section-color);
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
   font-weight: 500;
   font-family: "Roboto", serif;
 }
 .btn-item:hover,
 .btn-item:focus {
   background-color: var(--hover-color);
-  color: #fff;
+  color: var(--white-color);
 }
 .btn-item {
   cursor: pointer;
